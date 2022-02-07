@@ -1,0 +1,39 @@
+﻿@model GeoLocation.Models.JsonToViewModel
+@{
+    ViewData["Title"] = "GeoExample";
+}
+
+<h1>GeoExample</h1>
+
+<ul>
+    <li>
+        IpAddress : @Model.ip
+    </li>
+
+    <li>
+        Country Code : @Model.CountryCode
+    </li>
+      <li>
+        CountryName : @Model.CountryName
+    </li>
+      <li>
+       RegionName : @Model.RegionName
+    </li>
+      <li>
+        RegionCode : @Model.RegionCode
+    </li>
+      <li>
+        City : @Model.City
+    </li>
+      <li>
+        ZipCode : @Model.ZipCode
+    </li>
+      <li>
+        Latitude : @Model.Latitude
+    </li>
+      <li>
+       Longitude : @Model.Longitude
+    </li>
+
+</ul>
+
